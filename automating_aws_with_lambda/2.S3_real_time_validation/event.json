@@ -1,0 +1,14 @@
+{
+  "Records": [
+    {
+      "s3": {
+        "bucket": {
+          "name": "dct-billing-st"
+        },
+        "object": {
+          "key": "billing_data_dairy_may_2023.csv"
+        }
+      }
+    }
+  ]
+}

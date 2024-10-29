@@ -1,0 +1,14 @@
+{
+  "Records": [
+    {
+      "s3": {
+        "bucket": {
+          "name": "dct-billing-processed"
+        },
+        "object": {
+          "key": "billing_data_meat_june_2023.csv"
+        }
+      }
+    }
+  ]
+}

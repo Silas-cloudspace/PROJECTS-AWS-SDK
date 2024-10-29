@@ -1,0 +1,16 @@
+id,company_name,country,city,product_line,item,bill_date,currency,bill_amount
+1,The Beef Baron,US,San Antonio,milk,Wagyu Beef,###############################################################################################################################################################################################################################################################,EUR,5000
+2,Longhorn Delicacies,US,Dallas,Meat,USDA Prime Ribeye,02/05/2023,USD,7000
+3,Bison Bites,US,Houston,Meat,Bison Burgers,03/05/2023,USD,6000
+4,The Windy City Butcher,US,Chicago,Meat,Chicago-style Hot Dogs,04/05/2023,USD,5500
+5,East Coast Charcuterie,US,New York,Meat,Prosciutto,05/05/2023,USD,8000
+6,Boreal Butchers,CA,Vancouver,Meat,Canadian Bacon,06/05/2023,CAD,15000
+7,Trillium Trimmings,CA,Toronto,cheese,Smoked Duck Breast,07/05/2023,CAD,16000
+8,The Montreal Meaterie,CA,Montreal,Meat,Montreal Smoked Meat,08/05/2023,CAD,17000
+9,Carnes de la Capital,MX,Mexico City,Meat,Texas-Style Brisket,09/05/2023,MXN,180000
+10,El Asador de Guadalajara,MX,Guadalajara,Meat,Smoked Sausages,10/05/2023,MXN,190000
+11,Pacific Prime,US,San Diego,Meat,Grass-Fed Lamb,11/05/2023,USD,6000
+12,Desert Delicatessen,US,Phoenix,Meat,Wild Boar Ribs,12/05/2023,USD,6200
+13,Rocky Mountain Meats,US,Denver,Meat,Elk Steaks,13/05/2023,USD,6400
+14,The Rain City Butcher,US,Seattle,Meat,Salmon,14/05/2023,USD,6600
+15,The Strips Butcher,US,Las Vegas,Meat,Dry-Aged Steaks,15/05/2023,USD,6800
