@@ -1,8 +1,9 @@
-# AUTOMATING AWS WITH PYTHON | PART 6 : S3 REAL TIME VALIDATION
+# S3 REAL TIME VALIDATION
 
-![Picture1](https://github.com/user-attachments/assets/01f9eaa9-b6f4-40e2-9067-007fc479c167)
+![image](https://github.com/user-attachments/assets/3f511772-2e6d-4b6f-b4b0-baec3a1870ec)
 
 Today we will setup a Lambda function which will be triggered whenever a new CSV file is uploaded to an S3 bucket. 
+
 It will then validate the file and if any discrepancies are found, it will move the file to an “error” bucket.
 
 ## I.	Create a Lambda function:
@@ -42,7 +43,7 @@ It will then validate the file and if any discrepancies are found, it will move 
 •	On VS Code run with command prompt: sam local invoke -e event.json
         *You need to have docker installed and running 
 
-![Picture2](https://github.com/user-attachments/assets/5fe453a3-e2ae-4fa2-86e9-ff49adb16b1a)
+![image](https://github.com/user-attachments/assets/eb59e85a-70eb-490e-aa49-9140c6bf603d)
 
 •	Now you can see the results. Since an error was fond in the date format, this file was moved into the error bucket, 
   and the original file that was in the first bucket was delete.
