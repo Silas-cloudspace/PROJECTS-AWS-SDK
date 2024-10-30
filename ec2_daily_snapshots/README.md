@@ -1,6 +1,6 @@
-# AUTOMATING AWS WITH PYTHON | PART 5 : EC2 DAILY SNAPSHOTS
+# EC2 DAILY SNAPSHOTS
 
-![Picture3](https://github.com/user-attachments/assets/002cdad7-8b4a-4b8d-a16e-259cf60f6683)
+![image](https://github.com/user-attachments/assets/723c2ecf-8d23-4318-b4d0-c93136b19cc9)
 
 Today we are setting up an AWS infrastructure to automatically create EC2 snapshots using Python, AWS Lambda and EventBridge. The setup involves the following components:
 
