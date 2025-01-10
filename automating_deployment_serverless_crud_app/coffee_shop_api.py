@@ -35,7 +35,7 @@ def create_resource_and_methods(api_id, resource_path, api_gateway, function_nam
     return resource_id
 
 def integrate_resource_with_lambda(api_gateway, api_id, resource_id, http_method, function_name):
-    lambda_uri = f'arn:aws:apigateway:<your region>:lambda:path/2015-03-31/functions/arn:aws:lambda:eu-south-2:<your aws acc id>:function:{function_name}/invocations'
+    lambda_uri = f'arn:aws:apigateway:<your region>:lambda:path/2015-03-31/functions/arn:aws:lambda:<your region>:<your aws acc id>:function:{function_name}/invocations'
     integration_response = api_gateway.put_integration(
         restApiId=api_id,
         resourceId=resource_id,
